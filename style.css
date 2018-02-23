@@ -339,6 +339,7 @@ iframe {
 .world {
     position: relative;
     z-index: 0;
+    top: 100px;
 }
 
 .map {
