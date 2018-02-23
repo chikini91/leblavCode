@@ -15,7 +15,7 @@ $(document).ready(function() {
         if (currentOffset > $(".menu").height()){
             $(".menu").css("position","fixed");
             // header.height(header.height() + $(".menu").height())
-            $(".lines").css("margin-top", "70px" )
+            $(".lines").css("padding-top", "370px" )
 
 
         };
