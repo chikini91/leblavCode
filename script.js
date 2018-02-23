@@ -27,7 +27,7 @@ $(document).ready(function() {
             }
 
         // animate in product block
-        if (currentOffset >= header.height() + world) {
+        if (currentOffset >= header.height() + world/2) {
             animateProduct();
         }
 
