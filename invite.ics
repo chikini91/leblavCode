@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20180226T120000Z
+DTEND:20180226T130000Z
+DTSTAMP:20180222T120238Z
+ORGANIZER;CN=daria.herasymova@solidopinion.com:mailto:daria.herasymova@soli
+ dopinion.com
+UID:6vinh3k2mvrkh14t3mo9ka49v9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=mariia.odyntsova@solidopinion.com;X-NUM-GUESTS=0:mailto:mariia.odyn
+ tsova@solidopinion.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=alexander.khristichenko@solidopinion.com;X-NUM-GUESTS=0:mailto:alex
+ ander.khristichenko@solidopinion.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=daria.herasymova@solidopinion.com;X-NUM-GUESTS=0:mailto:daria.herasymov
+ a@solidopinion.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vadim.lysenko@solidopinion.com;X-NUM-GUESTS=0:mailto:vadim.lysenko@
+ solidopinion.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;X-NUM-GUESTS=0:mailto:khizhnyak.oleg91@gmail.com
+CREATED:20180222T120238Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nНе редактируйте этот раздел описания.\n\nЭто меро
+ приятие проводится в формате видеовстречи.\nВидеовызов: https://meet.google
+ .com/pvh-gbqh-ior\n\nПросмотрите свое мероприятие на странице https://www.g
+ oogle.com/calendar/event?action=VIEW&eid=NnZpbmgzazJtdnJraDE0dDNtbzlrYTQ5dj
+ kga2hpemhueWFrLm9sZWc5MUBt&tok=MzMjZGFyaWEuaGVyYXN5bW92YUBzb2xpZG9waW5pb24u
+ Y29tNThjNzQyOTk2Y2ZmYTFiNGM0ODYxYmUxOTJiMDk3MmZkNzRkMTMxZg&ctz=UTC&hl=ru.\n
+ -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~::~:~::-
+LAST-MODIFIED:20180222T120238Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interview with Oleg Khizhnyak. SolidOpinion | Integrations Engineer
+  
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

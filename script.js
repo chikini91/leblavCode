@@ -23,6 +23,7 @@ $(document).ready(function() {
             }
             else {
                 $(".menu").css("top","0");
+
             }
 
         // animate in product block

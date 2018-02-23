@@ -10,6 +10,9 @@ body,ul {
     list-style: none;
     overflow-x: hidden;
 }
+body {
+    z-index: 0;
+}
 header {
     background: url("./img/bg.png") 100% 100% no-repeat;
     height: 650px;
@@ -18,6 +21,7 @@ header {
 ;
 }
 .menu {
+    position: relative;
     width: 100%;
     height: 70px;
     display: flex;
@@ -27,7 +31,13 @@ header {
     background-color: steelblue;
     top: -70px;
     box-shadow: 0 0 5px 2px gray;
-    z-index: 9999;
+
+
+
+
+    z-index: 10;
+
+
 }
 
 .menu div img {
@@ -144,6 +154,8 @@ iframe {
     height: 730px;
     padding-top: 100px;
     box-sizing: border-box;
+    position: relative;
+    z-index: -1;
     background: linear-gradient(#26cfcd,#3341a6);
 }
 
@@ -326,6 +338,7 @@ iframe {
 
 .world {
     position: relative;
+    z-index: 0;
 }
 
 .map {
