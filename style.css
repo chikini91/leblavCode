@@ -256,47 +256,19 @@ iframe {
 
 
 .brands ul li {
-    position: relative;
     width: 70px;
     height: 70px;
+    margin-left:15px;
     float: left;
     overflow: hidden;
 }
 .brands ul li img {
-    position: absolute;
-    width: 510px;
-    height: 70px;
+    width: 100%;
+    height: 100%;
 }
 
-
-.brands ul li:nth-child(2) {
-    /*width: 40;*/
-}
-
-.brands ul li:nth-child(2) img {
-    right: -389px;
-    width: 535px;
-}
-
-.brands ul li:nth-child(3) img {
-    right: -340px;
-    width: 570px;
-}
-.brands ul li:nth-child(4) img {
-    right: -274px;
-    width: 570px;
-}
-.brands ul li:nth-child(5) {
-    width: 120px;
-}
-
-.brands ul li:nth-child(5) img {
-    right: -55px;
-    width: 400px;
-}
-.brands ul li:nth-child(6) img {
-    right: -12px;
-    width: 570px;
+.brands ul li:nth-child(3) {
+    width: 130px;
 }
 
 .whiteRectangleWrapper {
@@ -333,7 +305,6 @@ iframe {
 }
 
 .outherCEILEO {
-
     position: absolute;
     top: -78px;
     left: calc(0% - 435px);
@@ -341,7 +312,6 @@ iframe {
     color: white;
     font-size:180px;
     letter-spacing: 15px;
-
 }
 
 .world {
@@ -674,14 +644,13 @@ iframe {
 
 @media only screen and (max-width: 1150px) {
 
-
     .duplicateImage {
         padding-left: 180px;
     }
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1040px) {
     .whiteRectangleWrapper {
         margin-top: 70px;
     }
@@ -820,9 +789,6 @@ iframe {
     iframe {
         top: 250px;
         left: -210px;
-    }
-    .lines {
-        padding-top: 170px;
     }
 
     .description {
@@ -987,7 +953,7 @@ iframe {
         display: none;
     }
     header {
-        height: 420px;
+        height: 520px;
     }
     .leftLine{
         width: 15%;
