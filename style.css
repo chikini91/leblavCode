@@ -1,5 +1,11 @@
-
+@font-face {
+    font-family: Helvetica;
+    src: url("./fonts/HelveticaLight.eot");
+    src: url("./fonts/HelveticaLight.ttf");
+    src: url("./fonts/HelveticaLight.woff");
+}
 body,ul {
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -50,7 +56,9 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    font-weight: bold;
     cursor: pointer;
+    vertical-align: sub;
 }
 
 iframe {
@@ -97,6 +105,7 @@ iframe {
     margin: 0;
     position: absolute;
     left: -30px;
+    top: 15px;
     color: white;
     font-size: 25px;
 }
@@ -140,13 +149,17 @@ iframe {
 
 .productContainer {
     width: 100%;
-    height: 730px;
+    height: 830px;
     padding-top: 200px;
     margin-top: 100px;
     box-sizing: border-box;
     position: relative;
     z-index: 0;
     background: linear-gradient(#26cfcd,#3341a6);
+}
+
+.product {
+    padding-bottom: 50px;
 }
 
 .product::after {
@@ -304,10 +317,12 @@ iframe {
 
 .innerCEILEO {
     position: absolute;
-    font-size:140px;
+    font-size:180px;
+    font-weight: bold;
     color: #3341a6;
-    right: calc(0% - 185px);
-    top: -80px;
+    letter-spacing: 15px;
+    right: calc(0% - 265px);
+    top: -75px;
 }
 
 .whiteRectangleWrapper div:last-child {
@@ -320,10 +335,13 @@ iframe {
 .outherCEILEO {
 
     position: absolute;
-    top: -80px;
-    left: calc(0% - 313px);
-    font-size: 140px;
+    top: -75px;
+    left: calc(0% - 435px);
+    font-weight: bold;
     color: white;
+    font-size:180px;
+    letter-spacing: 15px;
+
 }
 
 .world {
@@ -474,6 +492,7 @@ iframe {
     z-index: 5;
     margin: 20px;
     padding: 15px;
+    letter-spacing: 2px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0px 5px 0px gray;
@@ -559,7 +578,7 @@ iframe {
     color: #2a2de7;
 }
 
-.china img {
+.china .item img {
     width: 30px;
     height: 30px;
     margin-left: 10px;
@@ -610,10 +629,25 @@ iframe {
     }
 }
 
-    @media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1250px) {
+    .innerCEILEO{
+        font-size: 135px;
+        right: calc(0% - 210px);
+        top: -58px;
+    }
+
+    .outherCEILEO {
+        font-size: 135px;
+        left: calc(0% - 338px);
+        top: -58px;
+    }
+}
+
+    @media only screen and (min-width: 1150px) {
 
     .duplicateImage {
         padding-left: 230px;
+        right: calc(0% - 230px);
     }
 
     .representetionContainer8 {
@@ -646,7 +680,8 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 960px) {
+
+@media only screen and (max-width: 1000px) {
     .whiteRectangleWrapper {
         margin-top: 70px;
     }
@@ -656,11 +691,11 @@ iframe {
     .whiteRectangle {
         width: 65%;
     }
+
     .whiteRectangleWrapper div:last-child {
         width: 35%;
     }
-    }
-
+}
 
 @media only screen and (max-width: 900px) {
 
@@ -707,8 +742,17 @@ iframe {
 
 }
 @media only screen and (max-width: 800px) {
+    .menu div img{
+        margin-right: 0;
+    }
+    .menu ul li {
+        margin-right: 5px;
+        font-size: 16px;
+    }
 
-
+    .menu ul {
+        display: none;
+    }
     iframe {
         width: 360px;
         height: 220px;
@@ -853,22 +897,18 @@ iframe {
         left: 34%;
     }
 
-}
-
-
-@media only screen and (max-width: 540px) {
     .innerCEILEO,
     .outherCEILEO {
         font-size: 80px;
     }
-.innerCEILEO {
-    right: calc(0% - 110px);
-    top: -45px;
-}
-.outherCEILEO {
-    top: -45px;
-    left: calc(0% - 175px);
-}
+    .innerCEILEO {
+        right: calc(0% - 140px);
+        top: -34px;
+    }
+    .outherCEILEO {
+        top: -34px;
+        left: calc(0% - 221px);
+    }
 }
 
 
