@@ -322,7 +322,7 @@ iframe {
     color: #3341a6;
     letter-spacing: 15px;
     right: calc(0% - 265px);
-    top: -75px;
+    top: -78px;
 }
 
 .whiteRectangleWrapper div:last-child {
@@ -335,7 +335,7 @@ iframe {
 .outherCEILEO {
 
     position: absolute;
-    top: -75px;
+    top: -78px;
     left: calc(0% - 435px);
     font-weight: bold;
     color: white;
@@ -814,12 +814,15 @@ iframe {
 }
 
 @media only screen and (max-width: 700px) {
+    header {
+        height: 700px;
+    }
     iframe {
         top: 250px;
         left: -210px;
     }
     .lines {
-        padding-top: 250px;
+        padding-top: 170px;
     }
 
     .description {
