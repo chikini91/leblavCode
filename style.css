@@ -1,8 +1,3 @@
-/**{*/
-    /*transition: .5s;*/
-/*}*/
-
-
 
 body,ul {
     margin: 0;
@@ -14,7 +9,7 @@ body {
     z-index: 0;
 }
 header {
-    background: url("./img/bg.png") 100% 100% no-repeat;
+    background: url("./img/bg.png");
     height: 650px;
     background-size: cover;
     position: relative;
@@ -29,16 +24,15 @@ header {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    background-color: steelblue;
+    background: url("./img/bg.png");
     top: -70px;
-    box-shadow: 0 0 5px 2px gray;
     z-index: 10;
 }
 
 .menu div img {
-    width: 100px;
+    width: 150px;
     height: 60px;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 
 .menu ul{
@@ -80,7 +74,7 @@ iframe {
 .rigthBlock::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: -1px;
     color: white;
     background-color: white;
     height: 35px;
@@ -173,9 +167,9 @@ iframe {
     position: absolute;
     top: -40px;
     left: 2000px;
-    width: 80%;
+    width: 65%;
     height: 85%;
-    padding-left: 100px;
+    padding-left: 300px;
     z-index: 1;
 }
 
@@ -407,22 +401,22 @@ iframe {
 
 .representetionContainer4 {
     top: -130px;
-    left: 36%;
+    left: 37%;
 }
 
 .representetionContainer5 {
     top: -165px;
-    left: 37.8%;
+    left: 39%;
 }
 
 .representetionContainer6 {
     top: -165px;
-    left: 38%;
+    left: 39%;
 }
 
 .representetionContainer7 {
     top: -165px;
-    left: 38%;
+    left: 39%;
 }
 
 .representetionContainer8 {
@@ -431,7 +425,7 @@ iframe {
 }
 
 .representetionContainer9 {
-    top: -83px;
+    top: -90px;
     left: 45.5%;
 }
 
@@ -495,25 +489,40 @@ iframe {
     margin-bottom: 10px;
 }
 
+.list li img {
+    width: 15px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+
+.list a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: #2a2de7;
+}
+
 .closeContainer {
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: darkgray;
-}
-.closeContainer {
     position: absolute;
     color: white;
     text-align: center;
     left: calc(100% - 40px);
     top: 20px;
     cursor: pointer;
+    border-radius: 50%;
+    background-color: darkgray;
 }
 
-.fa.fa-times {
-    padding-right: 0;
+
+.closeContainer::after {
+    content: '×';
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 20px;
     color: white;
-    vertical-align: text-bottom;
 }
 
 .item {
@@ -526,14 +535,13 @@ iframe {
     z-index: 3;
 }
 
-.fa {
+.fa{
     padding-right:10px;
-    color: steelblue;
+    color: #034ea2;
 }
 
 .areas {
     opacity: 0;
-    /*display: none;*/
 }
 
 .triangle {
@@ -544,11 +552,11 @@ iframe {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 15px solid #fff;
+    border-top: 10px solid #fff;
 }
 
 .email {
-    color: steelblue;
+    color: #2a2de7;
 }
 
 .china img {
@@ -557,26 +565,57 @@ iframe {
     margin-left: 10px;
 }
 
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1500px) {
 
     .representetionContainer4 {
-        left: 37%;
+        left: 40%;
     }
     .representetionContainer5 {
-        left: 38.8%;
+        left: 40%;
     }
     .representetionContainer6 {
         left: 39%;
     }
     .representetionContainer7 {
-        left: 39%;
+        left: 40%;
+    }
+    .representetionContainer8 {
+        left: 46%;
+    }
+
+    .representetionContainer9 {
+        left: 46.5%;
+    }
+
+    .representetionContainer10 {
+        left: 46%;
+    }
+
+    .representetionContainer10a {
+        left: 45%;
+    }
+
+    .representetionContainer11 {
+        left: 47%;
     }
 
 
-
     }
+
+
+@media only screen and (max-width: 1500px) {
+
+    .duplicateImage {
+        padding-left: 230px;
+    }
+}
 
     @media only screen and (max-width: 1150px) {
+
+    .duplicateImage {
+        padding-left: 230px;
+    }
+
     .representetionContainer8 {
         left: 44%;
     }
@@ -597,6 +636,14 @@ iframe {
         left: 45%;
     }
 
+}
+
+@media only screen and (max-width: 1150px) {
+
+
+    .duplicateImage {
+        padding-left: 180px;
+    }
 }
 
 @media only screen and (max-width: 960px) {
@@ -621,8 +668,9 @@ iframe {
         width: 150px;
         height: 225px;
     }
-
-
+    .duplicateImage {
+        padding-left: 140px;
+    }
     .representetionContainer7 {
         left: 36%;
     }
@@ -747,6 +795,9 @@ iframe {
 @media only screen and (max-width: 580px) {
 
 
+    .duplicateImage {
+        padding-left: 90px;
+    }
     .representetionContainer {
         left: 15%;
     }

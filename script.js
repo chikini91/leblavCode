@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
     $(".leftLine").animate({"right":"0"},1000);
-    $(".rigthLine").animate({left:"0"},1000);;
+    $(".rigthLine").animate({left:"0"},1000);
 
     var currentOffset = window.pageYOffset;
     var header = $("header");
@@ -13,8 +13,7 @@ $(document).ready(function() {
         // add fixed menu
 
         if (currentOffset > $(".menu").height()){
-            $(".menu").css("position","fixed");
-            // header.height(header.height() + $(".menu").height())
+            $(".menu").css({"position":"fixed","box-shadow":"0px 0px 5px 2px gray"});
             $(".lines").css("padding-top", "370px" )
 
 
@@ -22,12 +21,15 @@ $(document).ready(function() {
 
             var diff = window.pageYOffset - currentOffset;
             currentOffset = window.pageYOffset;
-            if (diff > 0) {
+
+             if(diff > 0) {
                 $(".menu").css("top","-70px").css('transition-duration','1s');
             }
             else {
                 $(".menu").css("top","0").css('transition-duration','1s');
-
+                 if (currentOffset === 0) {
+                     $(".menu").css("box-shadow","none").css('transition-duration','0s');
+                 }
             }
 
         // animate in product block
@@ -53,7 +55,7 @@ $(document).ready(function() {
         $(e.currentTarget).prev().css("display","block")
     });
 
-    $(".fa-times").click(function () {
+    $(".closeContainer").click(function () {
         $(".container").css("display","none");
     })
 
