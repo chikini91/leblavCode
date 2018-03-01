@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".rightAnimateLine").animate({"left":"170px"},1000);
+    $(".rightAnimateLine").animate({"left":"170px"},2000);
     $(".leftAnimateLine").addClass("active");
 
     var currentOffset = window.pageYOffset;

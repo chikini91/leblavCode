@@ -116,7 +116,7 @@ iframe {
 
 .active {
     right: calc(100% + 45px)!important;
-    transition: 1s;
+    transition: 2s;
 }
 
 .leftAnimateLine {
@@ -276,20 +276,54 @@ iframe {
 }
 
 .brands ul li {
-    width: 70px;
-    height: 70px;
-    margin-left:15px;
+    width: 73px;
+    height: 73px;
+    margin-left:10px;
     float: left;
     overflow: hidden;
+    position: relative;
 }
 .brands ul li img {
-    width: 100%;
-    height: 100%;
+    position: absolute;
 }
 
-.brands ul li:nth-child(3) {
+.brands ul li:nth-child(1) img {
+    top: -73px;
+}
+.brands ul li:nth-child(2){
     width: 130px;
 }
+.brands ul li:nth-child(2) img{
+    height: 147px;
+    width: 130px;
+}
+
+.brands ul li:nth-child(2){
+    width: 130px;
+}
+.brands ul li:nth-child(2) img{
+    height: 147px;
+    width: 130px;
+}
+
+.brands ul li:nth-child(3) img{
+    height: 163px;
+    width: 262px;
+    top: -82px;
+    left: -80px;
+}
+
+.brands ul li:nth-child(4) img{
+    top: -73px;
+}
+.brands ul li:nth-child(5) img{
+    height: 163px;
+    width: 262px;
+    top: -82px;
+    left: -80px;
+}
+
+
 
 .whiteRectangleWrapper {
     margin-left: 2500px;
