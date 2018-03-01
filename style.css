@@ -528,12 +528,41 @@ iframe {
 
 .list li {
     margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 }
 
+.spriteContainer{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 17px;
+    overflow: hidden;
+    margin-right: 15px;
+}
 .list li img {
-    width: 15px;
-    padding-right: 10px;
+    position: absolute;
+    width: 52px;
+    height: 30px;
     vertical-align: middle;
+}
+
+.list li:nth-child(2) img {
+    left: -38px;
+}
+.list li:nth-child(3) img {
+    left: -0;
+}
+.list li:nth-child(5) img {
+    left: -22px;
+    width: 57px;
+}
+.list li:nth-child(6) img {
+    left: 0;
+    height: 29px;
+    top: -17px;
 }
 
 .list a {
@@ -564,6 +593,8 @@ iframe {
     font-size: 20px;
     color: white;
 }
+
+
 
 .item {
     display: none;
